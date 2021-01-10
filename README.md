@@ -6,4 +6,4 @@ I chose the MIT License because you can do whatever you want to with this code. 
 
 ## Navigation
 I will update this `README.md` when I upload a new video and provide quick links to the source code below
-* [empty so far]
+* Understanding CSS/Styles Rules (Click here)[https://github.com/FOD17/Introduction-To-Web-Development/tree/main/Understanding%20CSS%20and%20Style%20Rules]
