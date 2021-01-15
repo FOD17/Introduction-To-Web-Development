@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS</title>
+    <style>
+        /*Attribute Selector - Ordinary Attribte*/
+        [title] {
+            color: red
+        }
+
+        /*Attribute Selector - Exactly */
+        [role="bob"] {
+            color: purple;
+        }
+
+        /*Attribute Selector - White space seperated list of words*/
+        [role~="Pizza"] {
+            border: 1px black solid;
+        }
+
+        /*Split right here*/
+
+        /*Attribute Selector - OR*/
+        /*[value] or [value-value]*/
+        [role|="value"] {
+            font-size: 25px;
+            ;
+        }
+
+        /*Attribute Selector - Begins With*/
+        [id^="begins-with"] {
+            color: blue;
+        }
+
+        /*Attribute Selector - Case Insensitive*/
+        [id*="spongebob"i] {
+            border-bottom: 1px solid red;
+            ;
+        }
+
+
+        /* Attribute Selector - ".com" */
+        a[href$=".com"] {
+            font-size: 40px;
+        }
+
+        /* Links that start with "https" and end in "xkcd.com" */
+        a[href^="https"][href$="xkcd.com"] {
+            font-size: 45px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h3 title="css">This text will be red</h3>
+    <h3 role="bob">This will be purple</h3>
+    <h3 role="I like Pizza">This will be outlined</h3>
+
+
+    <h3 role="yummy-">This will be bigger!</h3>
+    <h3 id="begins-with">This will be Blue</h3>
+    <h3 id="SpoNgeBoB"> This will be underlined</h3>
+
+    <h3><a href="https://www.google.com">40px link</a></h3>
+
+    <h3><a href="https://www.xkcd.com">45px link</a></h3>
+
+</body>
+
+</html>
