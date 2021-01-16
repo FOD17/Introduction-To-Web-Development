@@ -1,0 +1,14 @@
+body {
+    background-color: #7c92ab;
+}
+
+h1 {
+    background-color: rgb(71.4%, 40.5%, 0%);
+    /*
+        Hue: angle between 0-360 degrees
+        Saturation: Amount of Gray Added. Percentage
+        Lightness: Amount of White/Black Added. Percentage
+        Alpha: How see through it is
+    */
+    background-color: hsla(90, 80%, 55%, 0.5);
+}
