@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(41.2%, 41.2%, 41.2%);
+}
+
+#square-one {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(63.5%, 19.5%, 86.2%);
+}
+
+#square-two {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(58.6%, 77.3%, 80.8%, 0.4)
+}
