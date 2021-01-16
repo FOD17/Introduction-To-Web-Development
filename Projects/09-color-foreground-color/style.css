@@ -1,0 +1,13 @@
+h1 {
+    color: darkorange;
+}
+
+/* this uses color picker */
+h2 {
+    color: #55c46b;
+}
+
+/* this uses color picker */
+h3 {
+    color: rgb(51.1%, 29.6%, 71%);
+}
