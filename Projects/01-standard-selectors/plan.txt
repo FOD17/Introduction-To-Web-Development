@@ -1,0 +1,5 @@
+We have 8 basic selectors 
+
+Split video
+    Universal - ID 
+    Child - General Sibling Selector

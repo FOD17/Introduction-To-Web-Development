@@ -7,7 +7,5 @@ CSS Selectors Part 4 - Location pseudo-classes
 CSS Selectors Part 5 - User Action pseudo-classes 
 CSS Selectors Part 6 - Input Action pseudo-classes 
 CSS Selectors Part 7 - Tree Structural Action pseudo-classes 
-
-
 How CSS Cascades and Inheritance
 CSS Colors!
