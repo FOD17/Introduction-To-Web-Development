@@ -3,9 +3,68 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 CSS Selectors Part 1 - Standard
 CSS Selectors Part 2 - Attribute
 CSS Selectors Part 3 - Linguistic pseudo-classes 
-CSS Selectors Part 4 - Location pseudo-classes 
-CSS Selectors Part 5 - User Action pseudo-classes 
-CSS Selectors Part 6 - Input Action pseudo-classes 
-CSS Selectors Part 7 - Tree Structural Action pseudo-classes 
+CSS Selectors Part 4 - Link pseudo-classes 
+CSS Selectors Part 5 - child pseudo-classes 
+CSS Selectors Part 6 - input pseudo-classes 
+CSS Selectors Part 7 - other pseudo-classes 
+CSS Selectors Part 8 - pseudo elements
+CSS Selectors Part 9 - User Action pseudo-classes 
+CSS Selectors Part 10 - Input Action pseudo-classes 
+CSS Selectors Part 11 - Tree Structural Action pseudo-classes 
+Color Foreground
+Color Background
+Understanding Color Contrast
+Color Opacity
+HSL
+Typeface
+Specify Type Face
+Type Scapes
+Font Size and Letter Word Spacing
+Font alignment
+drop shadow text
+First letter of first line
 How CSS Cascades and Inheritance
-CSS Colors!
+
+
+pseudo-class breakdown grouping
+
+link related---------------
+:active
+:hover
+:link
+:visited
+
+child-number related-------
+:empty
+:first-child
+:first-of-type
+:last-child 
+:last-of-type
+:not
+:nth-child
+:nth-last-child
+:nth-last-of-type 
+:only-child
+
+input related--------------
+:checked
+:disabled
+:enabled
+:focus
+:in-range
+:invalid
+:optional
+:out-of-range 
+:read-only
+:read-write
+:required
+:valid
+
+other----------------------
+:lang
+
+
+TODO CSS Pseudo Elements
+::after
+::before
+::selection
