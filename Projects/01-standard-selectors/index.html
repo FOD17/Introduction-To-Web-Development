@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS</title>
+    <style>
+        /*Universal Selector*/
+        * {
+            font-size: 30px;
+        }
+
+        /*Type Selector*/
+        li {
+            color: green;
+        }
+
+        /*Class Selector*/
+        .my-list {
+            border: 10px solid black;
+
+        }
+
+        /*ID Selector*/
+        #first-item {
+            color: rebeccapurple;
+        }
+
+        /*Child Selector*/
+        body>h1 {
+            border-bottom: 2px dashed gold;
+        }
+
+        /*Descendent Selector*/
+        ul * li {
+            border-right: 2px dotted red;
+        }
+
+        /*Adjacent Sibling Selector*/
+        p+p {
+            color: brown;
+        }
+
+        /*General Sibling Selector*/
+        div~p {
+            color: pink;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>This is my header</h1>
+
+    <ul class="my-list">
+        <li id="first-item">List Item #1</li>
+        <li>List Item #2</li>
+        <li>List Item #3</li>
+    </ul>
+
+
+    <p>This is one p-tag</p>
+    <p>This is a second p-tag</p>
+
+    <div>Example Div</div>
+    <p>general siblings 1</p>
+    <p>general siblings 2</p>
+
+</body>
+
+</html>
