@@ -1,0 +1,40 @@
+/* Universal Selector */
+* {
+    font-size: 30px;
+    background-color: gray;
+}
+
+/*Type Selector*/
+li {
+    color: green;
+}
+
+/*Class Selector*/
+.my-list {
+    border: 10px solid black;
+}
+
+/*ID Selector*/
+#first-item {
+    color: rebeccapurple;
+}
+
+/*Child Selector*/
+body>h1 {
+    border-bottom: 2px dashed gold;
+}
+
+/*Descendent Selector*/
+ul li {
+    border: 2px dotted red;
+}
+
+/*Adjacent Sibling Selector*/
+p+p {
+    color: brown;
+}
+
+/*General Sibling Selector*/
+div~p {
+    color: pink;
+}

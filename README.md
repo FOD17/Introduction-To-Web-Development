@@ -8,3 +8,5 @@ I chose the MIT License because you can do whatever you want to with this code. 
 I will update this `README.md` when I upload a new video and provide quick links to the source code below
 * Understanding CSS/Styles Rules [Click here](https://github.com/FOD17/Introduction-To-Web-Development/tree/main/Understanding%20CSS%20and%20Style%20Rules)
 * Three Ways of Using CSS in Your Project [Click here](https://github.com/FOD17/Introduction-To-Web-Development/tree/main/Three%20Ways%20of%20Using%20CSS%20in%20Your%20Project)
+* Basic CSS Selectors
+* CSS Attribute Selectors

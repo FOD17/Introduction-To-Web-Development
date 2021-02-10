@@ -1,0 +1,43 @@
+        /*Attribute Selector - Ordinary Attribte*/
+        [title] {
+            color: red
+        }
+
+        /*Attribute Selector - Exactly */
+        [role="bob"] {
+            color: purple;
+        }
+
+        /*Attribute Selector - White space seperated list of words*/
+        [role~="Pizza"] {
+            border: 1px black solid;
+        }
+
+        /*Split right here*/
+
+        /*Attribute Selector - OR*/
+        /*[value] or [value-value]*/
+        [role|="value"] {
+            font-size: 25px;
+        }
+
+        /*Attribute Selector - Begins With*/
+        [id^="begins-with"] {
+            color: blue;
+        }
+
+        /*Attribute Selector - Case Insensitive*/
+        [id*="spongebob"i] {
+            border-bottom: 1px solid red;
+        }
+
+
+        /* Attribute Selector - ".com" */
+        a[href$=".com"] {
+            font-size: 40px;
+        }
+
+        /* Links that start with "https" and end in "xkcd.com" */
+        a[href^="https"][href$="xkcd.com"] {
+            font-size: 45px;
+        }
